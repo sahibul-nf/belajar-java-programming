@@ -9,8 +9,6 @@ public class Challenges {
     String usernameData = "sahibul_nf";
     String passwordData = "123";
 
-
-
     Scanner userInput = new Scanner(System.in);
 
     System.out.print("Username : ");
