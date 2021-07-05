@@ -20,8 +20,9 @@ public class Challenges {
     System.out.println();
 
     if (usernameInput.isEmpty() && passwordInput.isEmpty()) {
-      System.out.println("Username dan Password belum diisi");
+      System.out.println("Login gagal!\nUsername dan Password kamu salah, coba yang lain!");
     } else if (!usernameInput.isEmpty() && passwordInput.isEmpty()) {
+
       System.out.println("Password belum diisi");
     } else if (usernameInput.isEmpty() && !passwordInput.isEmpty()) {
       System.out.println("Username belum diisi");
@@ -41,10 +42,14 @@ public class Challenges {
     System.out.println("\n\n");
 
     // Review error | Fixing logic
-    boolean cekKesamaan = usernameData == usernameInput; // jika pake cek kesamaan sebuah tipe String pake ==
-    System.out.println(cekKesamaan); // maka hasilnya adalah tidak sama atau false nilai cek kesamaannya
+    boolean cekKesamaan =
+        usernameData == usernameInput; // jika pake cek kesamaan sebuah tipe String pake ==
+    System.out.println(
+        cekKesamaan); // maka hasilnya adalah tidak sama atau false nilai cek kesamaannya
 
-    cekKesamaan = usernameData.equals(usernameInput); // jika pake cek kesamaan sebuah tipe String pake method equals()
+    cekKesamaan =
+        usernameData.equals(
+            usernameInput); // jika pake cek kesamaan sebuah tipe String pake method equals()
     System.out.println(cekKesamaan); // maka hasilnya adalah sama atau true nilai cek kesamaannya
   }
 }

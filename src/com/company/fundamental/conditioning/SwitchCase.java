@@ -7,6 +7,7 @@ public class SwitchCase {
     switch (nilai) {
       case "A":
         System.out.println("Awesome, Kamu lulus dengan grade terbaik");
+        System.out.println("Awesome, Kamu lulus dengan grade terbaik");
         break;
       case "B":
         System.out.println("Kamu lulus");
