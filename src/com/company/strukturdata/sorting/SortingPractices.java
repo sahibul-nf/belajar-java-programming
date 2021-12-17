@@ -43,6 +43,8 @@ public class SortingPractices {
         for (String a: words) {
             System.out.println(a + " ");
         }
+
+        scanner.close();
     }
 
     // This function for count the number of word

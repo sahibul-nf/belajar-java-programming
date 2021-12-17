@@ -51,5 +51,7 @@ public class Challenges {
         usernameData.equals(
             usernameInput); // jika pake cek kesamaan sebuah tipe String pake method equals()
     System.out.println(cekKesamaan); // maka hasilnya adalah sama atau true nilai cek kesamaannya
+    
+    userInput.close();
   }
 }
