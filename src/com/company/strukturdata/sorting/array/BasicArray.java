@@ -35,5 +35,14 @@ public class BasicArray {
         System.out.println("Panjang array 'data2' adalah : " + data2.length);
 
         System.out.println("Panjang array 'a' adalah : " + a.length);
+
+        String teman[] = {"Ronaldo", "Isco", "Bale"};
+        for (var t : teman) {
+            System.out.println(t);
+        }
+        // teman[3].
+        for (var t : teman) {
+            System.out.println(t);
+        }
     }
 }
