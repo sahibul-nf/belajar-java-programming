@@ -17,12 +17,10 @@ public class SelectionSort {
     String kalimat = input.nextLine();
     // mengubah teks inputan yang di tampung variabel -
     // "kalimat" ke huruf kecil semua
-    kalimat.toLowerCase();
-
     // teks inputan berupa pada varibale "kalimat" kita ubah -
     // ke bentuk "char"(per karakter), lalu kita tampung ke -
     // variabel "kata" bertipe Array
-    char[] kata = kalimat.toCharArray();
+    char[] kata = kalimat.toLowerCase().toCharArray();
 
     // variabel "kata3 & kata2" sebagai bantuan untuk keperluan -
     // mengambil/memisah angka dan huruf
